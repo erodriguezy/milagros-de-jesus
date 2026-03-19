@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los 35 Milagros de Jesús - BNP</title>
+    
+    <!-- Tailwind CSS para Estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- React, ReactDOM y Babel (para JSX en el navegador) -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Merriweather:italic,wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-serif {
+            font-family: 'Merriweather', serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useMemo } = React;
+
+        // --- ICONOS SVG (Reemplazo de Lucide para HTML puro) ---
+        const Icon = ({ name, className }) => {
+            const icons = {
+                heart: <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />,
+                zap: <path d="M4 14.5 12 3l1 9h7L12 21l-1-9H4Z" />,
+                leaf: (
+                    <>
+                        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8a7 7 0 0 1-10 6.7V20Z" />
+                        <path d="M7 21q-1 0-1-1" />
+                    </>
+                ),
+                arrowUp: (
+                    <>
+                        <path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" />
+                        <path d="m9 12 3-3 3 3" />
+                        <path d="M12 15V9" />
+                    </>
+                ),
+                book: <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" />,
+                search: (
+                    <>
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.3-4.3" />
+                    </>
+                ),
+                users: (
+                    <>
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </>
+                ),
+                x: (
+                    <>
+                        <path d="M18 6 6 18" />
+                        <path d="m6 6 12 12" />
+                    </>
+                )
+            };
+            return (
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+                    {icons[name]}
+                </svg>
+            );
+        };
+
+        // --- DATOS ---
+        const miraclesData = [
+            { id: 1, title: "Sanidad de un leproso", reference: "Mateo 8,1-4", category: "Sanidades", description: "Jesús toca a un hombre con lepra y lo limpia instantáneamente.", passageText: "Señor, si quieres, puedes limpiarme. Jesús extendió la mano, lo tocó y dijo: Quiero, queda limpio. Al punto quedó limpio de la lepra." },
+            { id: 2, title: "El sirviente del centurión", reference: "Mateo 8,5-13", category: "Sanidades", description: "Jesús sana al sirviente paralizado de un centurión romano a la distancia.", passageText: "Señor, no soy digno de que entres bajo mi techo; basta que lo digas de palabra y mi sirviente se sanará... Ve, y que te suceda como has creído." },
+            { id: 3, title: "La suegra de Pedro", reference: "Mateo 8,14-15", category: "Sanidades", description: "Jesús sana a la suegra de Pedro que tenía fiebre con solo tocar su mano.", passageText: "Le tocó la mano y se le pasó la fiebre; ella se levantó y se puso a servirle." },
+            { id: 4, title: "El paralítico de Cafarnaúm", reference: "Mateo 9,1-8", category: "Sanidades", description: "Unos hombres bajan a su amigo por el techo. Jesús perdona sus pecados.", passageText: "Ánimo, hijo, tus pecados te son perdonados... Levántate, toma tu camilla y vete a tu casa." },
+            { id: 5, title: "La mujer con flujo de sangre", reference: "Mateo 9,20-22", category: "Sanidades", description: "Una mujer toca el borde del manto de Jesús y es sanada por su fe.", passageText: "Ánimo, hija, tu fe te ha salvado. Y desde aquel momento la mujer quedó sana." },
+            { id: 6, title: "Sanidad de dos ciegos", reference: "Mateo 9,27-31", category: "Sanidades", description: "Dos ciegos siguen a Jesús. Él toca sus ojos y recuperan la vista.", passageText: "¿Creen que puedo hacerlo? Ellos contestaron: Sí, Señor. Entonces les tocó los ojos diciendo: Que les suceda conforme a su fe." },
+            { id: 7, title: "El hombre de la mano seca", reference: "Mateo 12,9-13", category: "Sanidades", description: "En día de reposo, Jesús sana la mano paralizada de un hombre.", passageText: "Extiende la mano. Él la extendió y quedó sana como la otra." },
+            { id: 8, title: "La mujer encorvada", reference: "Lucas 13,10-17", category: "Sanidades", description: "Jesús sana a una mujer encorvada por un espíritu de enfermedad durante 18 años.", passageText: "Mujer, quedas libre de tu enfermedad. Le impuso las manos y al punto ella se enderezó." },
+            { id: 9, title: "El hombre hidrópico", reference: "Lucas 14,1-6", category: "Sanidades", description: "Jesús sana a un hombre con retención de líquidos durante una cena sabática.", passageText: "Él lo tomó de la mano, lo sanó y lo despidió." },
+            { id: 10, title: "Limpieza de los diez leprosos", reference: "Lucas 17,11-19", category: "Sanidades", description: "Jesús sana a diez leprosos en el camino, pero solo uno regresa a agradecer.", passageText: "Vayan a presentarse a los sacerdotes. Mientras iban, quedaron limpios." },
+            { id: 11, title: "El hijo del funcionario real", reference: "Juan 4,46-54", category: "Sanidades", description: "Jesús sana al hijo moribundo de un oficial a la distancia.", passageText: "Vete, tu hijo vive. El hombre creyó en la palabra de Jesús y se puso en camino." },
+            { id: 12, title: "El paralítico de Betesda", reference: "Juan 5,1-9", category: "Sanidades", description: "Jesús sana a un hombre que llevaba 38 años paralítico junto al estanque.", passageText: "Levántate, toma tu camilla y camina. Al momento el hombre quedó sano." },
+            { id: 13, title: "El ciego de nacimiento", reference: "Juan 9,1-7", category: "Sanidades", description: "Jesús hace lodo con saliva y manda al ciego a lavarse en Siloé.", passageText: "Vete a lavarte a la piscina de Siloé. Fue, se lavó y volvió con vista." },
+            { id: 14, title: "Bartimeo, el ciego", reference: "Marcos 10,46-52", category: "Sanidades", description: "Bartimeo clama a Jesús y su fe lo salva.", passageText: "¡Ánimo, levántate! ... Vete, tu fe te ha salvado. Al momento recobró la vista." },
+            { id: 15, title: "El sordomudo de Decápolis", reference: "Marcos 7,31-37", category: "Sanidades", description: "Jesús toca su lengua y sus oídos diciendo 'Efatá'.", passageText: "Mirando al cielo, suspiró y le dijo: ¡Efatá!, que significa: Ábrete. Al punto se le abrieron los oídos." },
+            { id: 16, title: "El ciego de Betsaida", reference: "Marcos 8,22-26", category: "Sanidades", description: "Jesús sana a un ciego en dos etapas hasta que ve claramente.", passageText: "Le puso otra vez las manos en los ojos... quedó sano y lo veía todo claramente." },
+            { id: 17, title: "La oreja de Malco", reference: "Lucas 22,50-51", category: "Sanidades", description: "En el arresto, Jesús sana la oreja que Pedro había cortado.", passageText: "¡Basta ya! Y tocándole la oreja lo sanó." },
+            { id: 18, title: "El endemoniado de Cafarnaúm", reference: "Marcos 1,21-28", category: "Exorcismos", description: "Jesús expulsa un espíritu inmundo con gran autoridad.", passageText: "Jesús lo reprendió: ¡Cállate y sal de él! El espíritu inmundo... salió de él." },
+            { id: 19, title: "El endemoniado ciego y mudo", reference: "Mateo 12,22", category: "Exorcismos", description: "Jesús sana a un hombre oprimido que no podía ver ni hablar.", passageText: "Le presentaron un endemoniado ciego y mudo. Él lo sanó de modo que el mudo hablaba y veía." },
+            { id: 20, title: "Los endemoniados de Gerasa", reference: "Mateo 8,28-34", category: "Exorcismos", description: "Jesús envía una legión de demonios a un hato de cerdos.", passageText: "Él les dijo: ¡Vayan! Ellos salieron y se metieron en los cerdos." },
+            { id: 21, title: "El mudo endemoniado", reference: "Mateo 9,32-33", category: "Exorcismos", description: "Apenas sale el demonio, el mudo comienza a hablar.", passageText: "Apenas salió el demonio, el mudo empezó a hablar. La gente decía: Nunca se ha visto nada igual." },
+            { id: 22, title: "La hija de la mujer cananea", reference: "Mateo 15,21-28", category: "Exorcismos", description: "Jesús alaba la fe de una mujer gentil y sana a su hija.", passageText: "Mujer, ¡qué grande es tu fe! Que se cumpla lo que deseas. Y su hija quedó sana." },
+            { id: 23, title: "El muchacho epiléptico", reference: "Mateo 17,14-21", category: "Exorcismos", description: "Jesús libera a un joven de un demonio que causaba convulsiones.", passageText: "Jesús reprendió al demonio, que salió del muchacho; quedó sano desde aquel momento." },
+            { id: 24, title: "El agua convertida en vino", reference: "Juan 2,1-11", category: "Naturaleza", description: "Primer milagro en las bodas de Caná.", passageText: "Jesús les dice: Llenen de agua las tinajas... Cuando el maestresala probó el agua convertida en vino..." },
+            { id: 25, title: "La pesca milagrosa", reference: "Lucas 5,1-11", category: "Naturaleza", description: "Pesca sobreabundante tras una noche de fracaso.", passageText: "Lo hicieron y recogieron tal cantidad de peces que las redes se rompían." },
+            { id: 26, title: "Calma la tempestad", reference: "Mateo 8,23-27", category: "Naturaleza", description: "Jesús reprende al viento y al mar trayendo calma.", passageText: "Entonces se levantó, reprendió a los vientos y al mar, y se produjo una gran calma." },
+            { id: 27, title: "Multiplicación de los panes (5000)", reference: "Mateo 14,13-21", category: "Naturaleza", description: "Alimenta a una multitud con cinco panes y dos peces.", passageText: "Tomó los cinco panes... los partió y se los dio... comieron todos hasta quedar satisfechos." },
+            { id: 28, title: "Camina sobre el agua", reference: "Mateo 14,22-33", category: "Naturaleza", description: "Jesús se acerca a la barca caminando sobre el mar.", passageText: "Hacia el final de la noche se les acercó caminando sobre el mar." },
+            { id: 29, title: "Multiplicación de los panes (4000)", reference: "Mateo 15,32-39", category: "Naturaleza", description: "Multiplica siete panes para otra gran multitud.", passageText: "Tomó los siete panes... dio gracias, los partió... Comieron todos hasta quedar satisfechos." },
+            { id: 30, title: "La moneda en la boca del pez", reference: "Mateo 17,24-27", category: "Naturaleza", description: "Provisión milagrosa para pagar el impuesto.", passageText: "Vete al lago... abre el primer pez que pique y encontrarás una moneda de plata." },
+            { id: 31, title: "La higuera seca", reference: "Mateo 21,18-22", category: "Naturaleza", description: "La higuera se seca al instante tras la palabra de Jesús.", passageText: "¡Nunca más brote fruto de ti! Al punto se secó la higuera." },
+            { id: 32, title: "Segunda pesca milagrosa", reference: "Juan 21,1-14", category: "Naturaleza", description: "Pesca tras la resurrección con 153 grandes peces.", passageText: "Echen la red a la derecha de la barca... No podían sacarla por la multitud de peces." },
+            { id: 33, title: "El hijo de la viuda de Naín", reference: "Lucas 7,11-17", category: "Resurrecciones", description: "Jesús detiene un funeral y devuelve la vida al joven.", passageText: "Muchacho, a ti te digo, levántate. El muerto se incorporó y empezó a hablar." },
+            { id: 34, title: "La hija de Jairo", reference: "Mateo 9,18-26", category: "Resurrecciones", description: "Jesús resucita a la niña de doce años.", passageText: "Entró, tomó a la niña de la mano y ella se levantó." },
+            { id: 35, title: "La resurrección de Lázaro", reference: "Juan 11,1-44", category: "Resurrecciones", description: "Lázaro sale del sepulcro tras cuatro días muerto.", passageText: "Gritó con voz fuerte: ¡Lázaro, sal fuera! Salió el muerto, con los pies y manos atados." }
+        ];
+
+        const categories = [
+            { id: 'Todos', name: 'Todos', icon: 'book' },
+            { id: 'Sanidades', name: 'Sanidades', icon: 'heart' },
+            { id: 'Exorcismos', name: 'Exorcismos', icon: 'zap' },
+            { id: 'Naturaleza', name: 'Naturaleza', icon: 'leaf' },
+            { id: 'Resurrecciones', name: 'Resurrecciones', icon: 'arrowUp' },
+        ];
+
+        const multitudeVerses = [
+            { reference: "Mateo 4,23-24", text: "Recorría toda Galilea enseñando... y sanando toda enfermedad y dolencia del pueblo. Su fama se extendió por toda Siria... y él los sanaba." },
+            { reference: "Mateo 14,14", text: "Al desembarcar vio una gran multitud, sintió compasión de ellos y sanó a sus enfermos." },
+            { reference: "Lucas 6,19", text: "Toda la gente intentaba tocarlo, porque salía de él una fuerza que los sanaba a todos." },
+            { reference: "Juan 21,25", text: "Jesús hizo muchas otras cosas. Si se escribieran una por una, creo que los libros no cabrían en el mundo entero.", isHighlight: true }
+        ];
+
+        // --- COMPONENTE PRINCIPAL ---
+        function App() {
+            const [selectedCategory, setSelectedCategory] = useState('Todos');
+            const [searchTerm, setSearchTerm] = useState('');
+            const [selectedMiracle, setSelectedMiracle] = useState(null);
+
+            const filteredMiracles = useMemo(() => {
+                return miraclesData.filter(m => {
+                    const matchCat = selectedCategory === 'Todos' || m.category === selectedCategory;
+                    const matchSearch = m.title.toLowerCase().includes(searchTerm.toLowerCase()) || m.description.toLowerCase().includes(searchTerm.toLowerCase());
+                    return matchCat && matchSearch;
+                });
+            }, [selectedCategory, searchTerm]);
+
+            const getColors = (cat) => {
+                switch(cat) {
+                    case 'Sanidades': return 'bg-rose-100 text-rose-800 border-rose-200';
+                    case 'Exorcismos': return 'bg-amber-100 text-amber-800 border-amber-200';
+                    case 'Naturaleza': return 'bg-emerald-100 text-emerald-800 border-emerald-200';
+                    case 'Resurrecciones': return 'bg-indigo-100 text-indigo-800 border-indigo-200';
+                    default: return 'bg-gray-100 text-gray-800 border-gray-200';
+                }
+            };
+
+            const getIconName = (cat) => {
+                switch(cat) {
+                    case 'Sanidades': return 'heart';
+                    case 'Exorcismos': return 'zap';
+                    case 'Naturaleza': return 'leaf';
+                    case 'Resurrecciones': return 'arrowUp';
+                    default: return 'book';
+                }
+            };
+
+            return (
+                <div className="min-h-screen pb-20">
+                    <header className="bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 text-white py-16 px-4 shadow-xl text-center relative overflow-hidden">
+                        <div className="max-w-4xl mx-auto relative z-10">
+                            <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">Los 35 Milagros de Jesús</h1>
+                            <p className="text-blue-100 text-lg md:text-xl font-light italic mb-8">"Todo lo ha hecho bien: hace oír a los sordos y hablar a los mudos." (Mc 7,37)</p>
+                            
+                            <div className="relative max-w-md mx-auto">
+                                <Icon name="search" className="absolute left-4 top-3.5 text-blue-300 w-5 h-5" />
+                                <input 
+                                    type="text" 
+                                    placeholder="Buscar milagro..." 
+                                    className="w-full bg-white/10 border-transparent rounded-full py-3 pl-12 pr-4 text-white placeholder-blue-200 focus:bg-white focus:text-slate-900 focus:outline-none transition-all"
+                                    value={searchTerm}
+                                    onChange={(e) => setSearchTerm(e.target.value)}
+                                />
+                            </div>
+                        </div>
+                    </header>
+
+                    <main className="max-w-7xl mx-auto px-4 mt-12">
+                        <div className="flex flex-wrap justify-center gap-3 mb-10">
+                            {categories.map(c => (
+                                <button 
+                                    key={c.id}
+                                    onClick={() => setSelectedCategory(c.id)}
+                                    className={`flex items-center px-5 py-2.5 rounded-full text-sm font-semibold transition-all ${selectedCategory === c.id ? 'bg-blue-600 text-white shadow-lg scale-105' : 'bg-white text-slate-600 border border-slate-200 hover:bg-blue-50'}`}
+                                >
+                                    <Icon name={c.icon} className="w-4 h-4 mr-2" />
+                                    {c.name}
+                                </button>
+                            ))}
+                        </div>
+
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {filteredMiracles.map(m => (
+                                <article 
+                                    key={m.id}
+                                    onClick={() => setSelectedMiracle(m)}
+                                    className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 hover:shadow-xl transition-all cursor-pointer group transform hover:-translate-y-1"
+                                >
+                                    <div className="flex justify-between items-start mb-4">
+                                        <span className={`px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${getColors(m.category)}`}>
+                                            {m.category}
+                                        </span>
+                                        <span className="text-slate-300 font-mono text-xs">#{m.id}</span>
+                                    </div>
+                                    <h3 className="text-xl font-bold text-slate-900 mb-2 leading-tight group-hover:text-blue-600 transition-colors">{m.title}</h3>
+                                    <p className="text-slate-500 text-sm leading-relaxed mb-6">{m.description}</p>
+                                    <div className="mt-auto pt-4 border-t border-slate-50 flex items-center justify-between">
+                                        <div className="flex items-center text-blue-800 font-semibold text-xs">
+                                            <Icon name="book" className="w-3.5 h-3.5 mr-1.5" />
+                                            {m.reference}
+                                        </div>
+                                        <span className="text-[10px] font-bold text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity">LEER PASAJE</span>
+                                    </div>
+                                </article>
+                            ))}
+                        </div>
+
+                        {/* Sección Multitudes */}
+                        <section className="mt-24 pt-16 border-t border-slate-200">
+                            <div className="text-center mb-12">
+                                <h2 className="text-3xl font-black text-slate-900 flex items-center justify-center gap-3">
+                                    <Icon name="users" className="w-8 h-8 text-blue-600" />
+                                    Muchos milagros más
+                                </h2>
+                                <p className="text-slate-500 mt-4 max-w-2xl mx-auto">La obra de Jesús fue inabarcable. Aquí algunos pasajes que nos recuerdan su poder sobre las multitudes.</p>
+                            </div>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                {multitudeVerses.map((v, i) => (
+                                    <div key={i} className={`p-8 rounded-3xl ${v.isHighlight ? 'bg-indigo-950 text-white md:col-span-2 shadow-2xl' : 'bg-blue-100/50 text-slate-800 border border-blue-200'}`}>
+                                        <div className="flex items-center gap-2 mb-4 opacity-80 text-sm font-bold">
+                                            <Icon name="book" className="w-4 h-4" />
+                                            {v.reference}
+                                        </div>
+                                        <p className={`font-serif italic leading-relaxed ${v.isHighlight ? 'text-2xl md:text-3xl text-blue-100' : 'text-lg'}`}>"{v.text}"</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    </main>
+
+                    {/* Footer */}
+                    <footer className="mt-20 py-10 bg-slate-900 text-slate-500 text-center text-xs">
+                        <p>Consolidado de Milagros de Jesús • Biblia de Nuestro Pueblo (BNP)</p>
+                    </footer>
+
+                    {/* MODAL */}
+                    {selectedMiracle && (
+                        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/80 backdrop-blur-md" onClick={() => setSelectedMiracle(null)}>
+                            <div className="bg-white rounded-3xl max-w-2xl w-full p-8 shadow-2xl relative overflow-hidden animate-in fade-in zoom-in duration-300" onClick={e => e.stopPropagation()}>
+                                <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                                <button onClick={() => setSelectedMiracle(null)} className="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-800 hover:bg-slate-100 rounded-full transition-all">
+                                    <Icon name="x" className="w-6 h-6" />
+                                </button>
+                                
+                                <div className="mb-6">
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold border ${getColors(selectedMiracle.category)}`}>
+                                            {selectedMiracle.category}
+                                        </span>
+                                        <span className="text-blue-600 font-bold text-sm flex items-center">
+                                            <Icon name="book" className="w-4 h-4 mr-1.5" />
+                                            {selectedMiracle.reference}
+                                        </span>
+                                    </div>
+                                    <h2 className="text-3xl font-black text-slate-900 tracking-tight">{selectedMiracle.title}</h2>
+                                </div>
+
+                                <div className="bg-slate-50 border-l-4 border-blue-600 p-6 rounded-r-2xl mb-8">
+                                    <p className="text-xl font-serif italic text-slate-800 leading-relaxed leading-relaxed">"{selectedMiracle.passageText}"</p>
+                                    <p className="mt-4 text-[10px] text-slate-400 font-bold uppercase tracking-widest">— Biblia de Nuestro Pueblo</p>
+                                </div>
+
+                                <div className="flex justify-end">
+                                    <button onClick={() => setSelectedMiracle(null)} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition-all active:scale-95 shadow-lg shadow-blue-200">
+                                        Entendido
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
