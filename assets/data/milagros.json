@@ -1,0 +1,525 @@
+[
+    {
+        "id": 1,
+        "titulo": "Conversión del agua en vino",
+        "descripcionBreve": "Jesús transforma agua en vino de alta calidad durante una boda en Caná.",
+        "pasajes": [
+            "Juan 2,1-11"
+        ],
+        "evangelios": [
+            "Juan"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 2,
+        "titulo": "Curación del hijo del oficial",
+        "descripcionBreve": "Jesús sana a distancia al hijo de un oficial real que estaba a punto de morir.",
+        "pasajes": [
+            "Juan 4,46-54"
+        ],
+        "evangelios": [
+            "Juan"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 3,
+        "titulo": "Pesca milagrosa en Galilea",
+        "descripcionBreve": "Los discípulos capturan una cantidad asombrosa de peces tras seguir la instrucción de Jesús.",
+        "pasajes": [
+            "Lucas 5,1-11"
+        ],
+        "evangelios": [
+            "Lucas"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 4,
+        "titulo": "Exorcismo en la sinagoga",
+        "descripcionBreve": "Jesús libera a un hombre poseído por un espíritu impuro dentro de la sinagoga.",
+        "pasajes": [
+            "Marcos 1,21-28",
+            "Lucas 4,31-37"
+        ],
+        "evangelios": [
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Exorcismo",
+        "categoria": "Compasión"
+    },
+    {
+        "id": 5,
+        "titulo": "Sanación de la suegra de Pedro",
+        "descripcionBreve": "Jesús sana a la suegra de Pedro, quien sufría de una fiebre intensa.",
+        "pasajes": [
+            "Mateo 8,14-15",
+            "Marcos 1,29-31",
+            "Lucas 4,38-39"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 6,
+        "titulo": "Curación del leproso",
+        "descripcionBreve": "Jesús toca y limpia a un hombre que padecía de lepra, restaurando su salud.",
+        "pasajes": [
+            "Mateo 8,1-4",
+            "Marcos 1,40-45",
+            "Lucas 5,12-16"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Petición"
+    },
+    {
+        "id": 7,
+        "titulo": "Criado del centurión",
+        "descripcionBreve": "Jesús sana al siervo de un centurión romano, admirando la gran fe de este último.",
+        "pasajes": [
+            "Mateo 8,5-13",
+            "Lucas 7,1-10"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 8,
+        "titulo": "Sanación de un paralítico",
+        "descripcionBreve": "Jesús perdona los pecados y sana a un hombre paralítico que fue bajado por el techo",
+        "pasajes": [
+            "Mateo 9,1-8",
+            "Marcos 2,1-12",
+            "Lucas 5,17-26"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 9,
+        "titulo": "Hombre de la mano seca",
+        "descripcionBreve": "Jesús restaura la mano atrofiada de un hombre en la sinagoga durante el día de reposo.",
+        "pasajes": [
+            "Mateo 12,9-14",
+            "Marcos 3,1-6",
+            "Lucas 6,6-11"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 10,
+        "titulo": "Hijo de la viuda de Naín",
+        "descripcionBreve": "Jesús resucita al hijo único de una viuda mientras era llevado al sepulcro.",
+        "pasajes": [
+            "Lucas 7,11-17"
+        ],
+        "evangelios": [
+            "Lucas"
+        ],
+        "tipo": "Resurrección",
+        "categoria": "Compasión"
+    },
+    {
+        "id": 11,
+        "titulo": "Calma de la tempestad",
+        "descripcionBreve": "Jesús reprende al viento y al mar, calmando una violenta tempestad en el lago.",
+        "pasajes": [
+            "Mateo 8,23-27",
+            "Marcos 4,35-41",
+            "Lucas 8,22-25"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 12,
+        "titulo": "Endemoniados gadarenos",
+        "descripcionBreve": "Jesús expulsa una legión de demonios de dos hombres, permitiéndoles entrar en un hato de cerdos.",
+        "pasajes": [
+            "Mateo 8,28-34",
+            "Marcos 5,1-20",
+            "Lucas 8,26-39"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Exorcismo",
+        "categoria": "Petición"
+    },
+    {
+        "id": 13,
+        "titulo": "Mujer con flujo de sangre",
+        "descripcionBreve": "Una mujer sana instantáneamente de una hemorragia crónica al tocar el manto de Jesús.",
+        "pasajes": [
+            "Mateo 9,20-22",
+            "Marcos 5,25-34",
+            "Lucas 8,43-48"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Petición"
+    },
+    {
+        "id": 14,
+        "titulo": "Hija de Jairo",
+        "descripcionBreve": "Jesús devuelve la vida a la hija de doce años de un principal de la sinagoga.",
+        "pasajes": [
+            "Mateo 9,18-26",
+            "Marcos 5,21-43",
+            "Lucas 8,40-56"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Resurrección",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 15,
+        "titulo": "Sanación de dos ciegos",
+        "descripcionBreve": "Jesús sana a dos hombres ciegos que clamaban por su misericordia.",
+        "pasajes": [
+            "Mateo 9,27-31"
+        ],
+        "evangelios": [
+            "Mateo"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Petición"
+    },
+    {
+        "id": 16,
+        "titulo": "Mudo poseído",
+        "descripcionBreve": "Jesús expulsa un demonio que impedía hablar a un hombre, devolviéndole el habla.",
+        "pasajes": [
+            "Mateo 9,32-34"
+        ],
+        "evangelios": [
+            "Mateo"
+        ],
+        "tipo": "Exorcismo",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 17,
+        "titulo": "Paralítico en Betesda",
+        "descripcionBreve": "Jesús sana a un hombre que llevaba 38 años inválido junto al estanque de Betesda.",
+        "pasajes": [
+            "Juan 5,1-15"
+        ],
+        "evangelios": [
+            "Juan"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Compasión"
+    },
+    {
+        "id": 18,
+        "titulo": "Alimentación de los 5,000",
+        "descripcionBreve": "Jesús multiplica cinco panes y dos peces para alimentar a más de cinco mil personas.",
+        "pasajes": [
+            "Mateo 14,13-21",
+            "Marcos 6,30-44",
+            "Lucas 9,10-17",
+            "Juan 6,1-14"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas",
+            "Juan"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Compasión "
+    },
+    {
+        "id": 19,
+        "titulo": "Camina sobre las aguas",
+        "descripcionBreve": "Jesús camina sobre las aguas del mar de Galilea para alcanzar la barca de sus discípulos.",
+        "pasajes": [
+            "Mateo 14,22-33",
+            "Marcos 6,45-52",
+            "Juan 6,16-21"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Juan"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 20,
+        "titulo": "Hija de la mujer cananea",
+        "descripcionBreve": "Jesús libera a la hija de una mujer extranjera debido a la fe persistente de la madre.",
+        "pasajes": [
+            "Mateo 15,21-28",
+            "Marcos 7,24-30"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos"
+        ],
+        "tipo": "Exorcismo",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 21,
+        "titulo": "Sordomudo en la Decápolis",
+        "descripcionBreve": "Jesús sana a un hombre sordo y con dificultades para hablar usando saliva y un toque.",
+        "pasajes": [
+            "Marcos 7,31-37"
+        ],
+        "evangelios": [
+            "Marcos"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 22,
+        "titulo": "Alimentación de los 4,000",
+        "descripcionBreve": "Jesús multiplica siete panes y unos pocos peces para alimentar a cuatro mil personas.",
+        "pasajes": [
+            "Mateo 15,32-39",
+            "Marcos 8,1-9"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Compasión"
+    },
+    {
+        "id": 23,
+        "titulo": "Ciego de Betsaida",
+        "descripcionBreve": "Jesús sana a un ciego de forma progresiva tras poner saliva en sus ojos.",
+        "pasajes": [
+            "Marcos 8,22-26"
+        ],
+        "evangelios": [
+            "Marcos"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 24,
+        "titulo": "Muchacho endemoniado",
+        "descripcionBreve": "Jesús expulsa un espíritu mudo y sordo de un muchacho que sus discípulos no pudieron sanar.",
+        "pasajes": [
+            "Mateo 17,14-21",
+            "Marcos 9,14-29",
+            "Lucas 9,37-43"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Exorcismo",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 25,
+        "titulo": "Moneda en la boca del pez",
+        "descripcionBreve": "Jesús provee milagrosamente el dinero del impuesto mediante un pez pescado por Pedro.",
+        "pasajes": [
+            "Mateo 17,24-27"
+        ],
+        "evangelios": [
+            "Mateo"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 26,
+        "titulo": "Ciego de nacimiento",
+        "descripcionBreve": "Jesús sana a un hombre ciego desde su nacimiento usando lodo y agua del estanque de Siloé.",
+        "pasajes": [
+            "Juan 9,1-41"
+        ],
+        "evangelios": [
+            "Juan"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 27,
+        "titulo": "Hombre hidrópico",
+        "descripcionBreve": "Jesús sana a un hombre que sufría de hidropesía durante una comida en casa de un fariseo.",
+        "pasajes": [
+            "Lucas 14,1-6"
+        ],
+        "evangelios": [
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 28,
+        "titulo": "Resurrección de Lázaro",
+        "descripcionBreve": "Jesús resucita a su amigo Lázaro después de que este llevara cuatro días muerto.",
+        "pasajes": [
+            "Juan 11,1-44"
+        ],
+        "evangelios": [
+            "Juan"
+        ],
+        "tipo": "Resurrección",
+        "categoria": "Intercesión"
+    },
+    {
+        "id": 29,
+        "titulo": "Diez leprosos",
+        "descripcionBreve": "Jesús sana a diez hombres con lepra, aunque solo uno regresa para agradecerle.",
+        "pasajes": [
+            "Lucas 17,11-19"
+        ],
+        "evangelios": [
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 30,
+        "titulo": "Ciego Bartimeo",
+        "descripcionBreve": "El mendigo ciego Bartimeo recibe la vista tras clamar con fe a Jesús en el camino.",
+        "pasajes": [
+            "Mateo 20,29-34",
+            "Marcos 10,46-52",
+            "Lucas 18,35-43"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 31,
+        "titulo": "Higuera estéril",
+        "descripcionBreve": "Jesús maldice una higuera que no tenía fruto y esta se seca rápidamente.",
+        "pasajes": [
+            "Mateo 21,18-22",
+            "Marcos 11,12-24"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 32,
+        "titulo": "Oreja de Malco",
+        "descripcionBreve": "Jesús restaura la oreja cortada de un siervo del sumo sacerdote durante su arresto.",
+        "pasajes": [
+            "Lucas 22,50-51"
+        ],
+        "evangelios": [
+            "Lucas"
+        ],
+        "tipo": "Sanidad",
+        "categoria": "Compasión"
+    },
+    {
+        "id": 33,
+        "titulo": "La Resurrección",
+        "descripcionBreve": "Jesús vence a la muerte y resucita al tercer día, el milagro central del cristianismo.",
+        "pasajes": [
+            "Mateo 28,1-10",
+            "Marcos 16,1-8",
+            "Lucas 24,1-12",
+            "Juan 20,1-10"
+        ],
+        "evangelios": [
+            "Mateo",
+            "Marcos",
+            "Lucas",
+            "Juan"
+        ],
+        "tipo": "Resurrección",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 34,
+        "titulo": "Pesca tras la resurrección",
+        "descripcionBreve": "Jesús se aparece a sus discípulos y les concede una captura milagrosa de 153 peces.",
+        "pasajes": [
+            "Juan 21,1-14"
+        ],
+        "evangelios": [
+            "Juan"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Prueba"
+    },
+    {
+        "id": 35,
+        "titulo": "La Ascensión",
+        "descripcionBreve": "Jesús es elevado al cielo en presencia de sus apóstoles tras su resurrección.",
+        "pasajes": [
+            "Marcos 16,19",
+            "Lucas 24,50-53"
+        ],
+        "evangelios": [
+            "Marcos",
+            "Lucas"
+        ],
+        "tipo": "Naturaleza",
+        "categoria": "Prueba"
+    }
+]
