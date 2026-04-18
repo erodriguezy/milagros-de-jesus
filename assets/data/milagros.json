@@ -11,7 +11,6 @@
         ],
         "tipo": "Naturaleza",
         "categoria": "Intercesión",
-        "texto_pasaje": "Tres días después se celebraba una boda en Caná de Galilea; allí estaba la madre de Jesús. También Jesús y sus discípulos estaban invitados a la boda. Se acabó el vino, y la madre de Jesús le dice: -No tienen vino. Jesús le responde: -¿Qué quieres de mí, mujer? Aún no ha llegado mi hora. La madre dice a los que servían: -Hagan lo que él les diga. Había allí seis tinajas de piedra destinadas a los ritos de purificación de los judíos, con una capacidad de setenta a cien litros cada una. Jesús les dice: -Llenen de agua las tinajas. Las llenaron hasta el borde. Les dice: -Ahora saquen un poco y llévenle al encargado del banquete para que lo pruebe. Se lo llevaron. Cuando el encargado del banquete probó el agua convertida en vino, sin saber de dónde procedía, aunque los servidores que habían sacado el agua lo sabían, se dirige al novio y le dice: -Todo el mundo sirve primero el mejor vino, y cuando los convidados están algo bebidos, saca el peor. Tú, en cambio has guardado hasta ahora el vino mejor. En Caná de Galilea hizo Jesús esta primera señal, manifestó su gloria y creyeron en él los discípulos. ",
         "explicacion_teologica": "El milagro de Conversión del agua en vino revela la compasión y el poder de Jesús."
     },
     {
@@ -26,7 +25,6 @@
         ],
         "tipo": "Sanidad",
         "categoria": "Intercesión",
-        "texto_pasaje": "Fue de nuevo a Caná de Galilea, donde había convertido el agua en vino. Había allí un funcionario real cuyo hijo estaba enfermo en Cafarnaún. Al oír que Jesús había llegado de Judea a Galilea, fue a visitarlo y le suplicaba que bajase a sanar a su hijo moribundo. Jesús le dice: -Si no ven signos y prodigios, ustedes no creen. Le dice el funcionario real: -Señor, baja antes de que muera mi muchacho. Jesús le dice: -Regresa tranquilo, que tu hijo sigue vivo. El hombre creyó lo que le decía Jesús y se puso en camino. Iba ya bajando, cuando sus sirvientes le salieron al encuentro para anunciarle que su muchacho estaba sano. Les preguntó a qué hora se había puesto bien, y le dijeron que el día anterior a la una se le había pasado la fiebre. Comprobó el padre que era la hora en que Jesús le había dicho que su hijo seguía vivo. Y creyó en él con toda su familia. Ésta fue la segunda señal que hizo Jesús cuando se trasladó de Judea a Galilea.",
         "explicacion_teologica": "El milagro de Curación del hijo del oficial revela la compasión y el poder de Jesús."
     },
     {
@@ -41,7 +39,6 @@
         ],
         "tipo": "Naturaleza",
         "categoria": "Prueba",
-        "texto_pasaje": "La gente se agolpaba junto a él para escuchar la Palabra de Dios, mientras él estaba a la orilla del lago de Genesaret. Vio dos barcas junto a la orilla, los pescadores se habían bajado y estaban lavando sus redes. Subiendo a una de las barcas, la de Simón, le pidió que se apartase un poco de tierra. Se sentó y se puso a enseñar a la multitud desde la barca. Cuando acabó de hablar, dijo a Simón: -Navega lago adentro y echa las redes para pescar. Le replicó Simón: -Maestro, hemos trabajado toda la noche y no hemos sacado nada; pero, ya que lo dices, echaré las redes. Lo hicieron y capturaron tal cantidad de peces que reventaban las redes. Hicieron señas a los socios de la otra barca para que fueran a ayudarlos. Llegaron y llenaron las dos barcas, que casi se hundían. Al verlo, Simón Pedro cayó a los pies de Jesús y dijo: -¡Apártate de mí, Señor, que soy un pecador!",
         "explicacion_teologica": "El milagro de Pesca milagrosa en Galilea revela la compasión y el poder de Jesús."
     },
     {
@@ -57,8 +54,7 @@
             "Lucas"
         ],
         "tipo": "Exorcismo",
-        "categoria": "Compasión",
-        "texto_pasaje": "Llegaron a Cafarnaún y el sábado siguiente entró en la sinagoga a enseñar. La gente se asombraba de su enseñanza porque lo hacía con autoridad, no como los letrados. Precisamente en aquella sinagoga había un hombre poseído por un espíritu inmundo, que gritó: -¿Qué tienes contra nosotros, Jesús de Nazaret? ¿Has venido a destruirnos? Sé quién eres tú: ¡el Consagrado de Dios! Jesús le increpó: -¡Calla y sal de él! El espíritu inmundo sacudió al hombre, dio un fuerte grito y salió de él. Todos se llenaron de estupor y se preguntaban: -¿Qué significa esto? ¡Una enseñanza nueva, con autoridad. Hasta a los espíritus inmundos les da órdenes y le obedecen. Su fama se divulgó rápidamente por todas partes, en toda la región de Galilea.",
+        "categoria": "Compasión",    
         "explicacion_teologica": "El milagro de Exorcismo en la sinagoga revela la compasión y el poder de Jesús."
     },
     {
@@ -76,8 +72,7 @@
             "Lucas"
         ],
         "tipo": "Sanidad",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Entrando Jesús en casa de Pedro, vio a su suegra acostada con fiebre. La tomó de la mano, y se le fue la fiebre; entonces ella se levantó y se puso a servirle.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Sanación de la suegra de Pedro revela la compasión y el poder de Jesús."
     },
     {
@@ -95,8 +90,7 @@
             "Lucas"
         ],
         "tipo": "Sanidad",
-        "categoria": "Petición",
-        "texto_pasaje": "Cuando bajaba del monte le seguía una gran multitud. Un leproso se le acercó, se postró ante él y le dijo: -Señor, si quieres, puedes sanarme. Él extendió la mano y le tocó diciendo: -Lo quiero, queda sano. Y en ese instante se sanó de la lepra. Jesús le dijo: -No se lo digas a nadie; ve a presentarte al sacerdote y, para que les conste, lleva la ofrenda establecida por Moisés.",
+        "categoria": "Petición",        
         "explicacion_teologica": "El milagro de Curación del leproso revela la compasión y el poder de Jesús."
     },
     {
@@ -112,8 +106,7 @@
             "Lucas"
         ],
         "tipo": "Sanidad",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Al entrar en Cafarnaún, un centurión se le acercó y le suplicó: - Señor, mi muchacho está postrado en casa, paralítico, y sufre terriblemente. Jesús le contestó: -Yo iré a sanarlo. Pero el centurión le replicó: -Señor, no soy digno de que entres bajo mi techo. Basta que digas una palabra y mi muchacho quedará sano.   También yo tengo un superior y soldados a mis órdenes. Si le digo a éste que vaya, va; al otro que venga, viene; a mi sirviente que haga esto, y lo hace. Al oírlo, Jesús se admiró y dijo a los que le seguían: -Les aseguro, que no he encontrado una fe semejante en ningún israelita. Les digo que muchos vendrán de  oriente y occidente y se sentarán con Abrahán, Isaac y Jacob en el reino de los cielos. Mientras que los ciudadanos del reino serán expulsados a las tinieblas de fuera. Allí será el llanto y el crujir de dientes. Al centurión, Jesús le dijo: -Ve y que suceda como has creído. En aquel instante su muchacho quedó sano.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Criado del centurión revela la compasión y el poder de Jesús."
     },
     {
@@ -132,7 +125,6 @@
         ],
         "tipo": "Sanidad",
         "categoria": "Intercesión",
-        "texto_pasaje": "Jesús subió a una barca, cruzó a la otra orilla y llegó a su ciudad. Le trajeron un paralítico tendido en una camilla. Al ver Jesús la fe que tenían, dijo al paralítico: -¡Ánimo, hijo! Tus pecados te son perdonados. Entonces algunos letrados pensaron: Éste blasfema. Jesús, conociendo sus pensamientos, dijo: —¿Por qué piensan mal? ¿Qué es más fácil? ¿Decir: se te perdonan tus pecados; o decir: levántate y camina? Pues, para que sepan que el Hijo del Hombre tiene autoridad en la tierra para perdonar pecados, dirigiéndose al paralítico, le dijo: Levántate, toma tu camilla y vete a tu casa. Él se levantó y se fue a su casa. La multitud al verlo quedó atemorizada y daba gloria a Dios por haber dado tal autoridad alos hombres.",
         "explicacion_teologica": "El milagro de Sanación de un paralítico revela la compasión y el poder de Jesús."
     },
     {
@@ -151,7 +143,6 @@
         ],
         "tipo": "Sanidad",
         "categoria": "Prueba",
-        "texto_pasaje": "Lectura bíblica en preparación.",
         "explicacion_teologica": "El milagro de Hombre de la mano seca revela la compasión y el poder de Jesús."
     },
     {
@@ -165,8 +156,7 @@
             "Lucas"
         ],
         "tipo": "Resurrección",
-        "categoria": "Compasión",
-        "texto_pasaje": "A continuación se dirigió a una ciudad llamada Naín, acompañado de los discípulos y de un gran gentío. Justo cuando se acercaba a la puerta de la ciudad, sacaban a un muerto, hijo único de una viuda; la acompañaba un grupo considerable de vecinos. Al verla, el Señor sintió compasión y le dijo: -No llores. Se acercó, tocó el féretro, y los portadores se detuvieron. Entonces dijo: -Muchacho, yo te lo ordeno, levántate. El muerto se incorporó y empezó a hablar. Jesús se lo entregó a su madre. Todos quedaron sobrecogidos y daban gloria a Dios diciendo: -Un gran profeta ha surgido entre nosotros; Dios se ha ocupado de su pueblo. La noticia de lo que había hecho se divulgó por toda la región y por Judea.",
+        "categoria": "Compasión",        
         "explicacion_teologica": "El milagro de Hijo de la viuda de Naín revela la compasión y el poder de Jesús."
     },
     {
@@ -184,8 +174,7 @@
             "Lucas"
         ],
         "tipo": "Naturaleza",
-        "categoria": "Prueba",
-        "texto_pasaje": "Cuando subía a la barca le siguieron los discípulos. De pronto se levantó tal tempestad en el lago que las olas cubrían la embarcación, mientras tanto, él dormía. Los discípulos se acercaron y lo despertaron diciendo: -¡Señor, sálvanos, que morimos! Él les dijo: -¡Qué cobardes y hombres de poca fe son! Se levantó, increpó a los vientos y al lago, y sobrevino una gran calma. Los hombres decían asombrados: -¿Quién es éste, que hasta los vientos y el lago le obedecen?",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de Calma de la tempestad revela la compasión y el poder de Jesús."
     },
     {
@@ -203,8 +192,7 @@
             "Lucas"
         ],
         "tipo": "Exorcismo",
-        "categoria": "Petición",
-        "texto_pasaje": "Al llegar a la otra orilla y entrar en territorio de Gadara, fueron a su encuentro dos endemoniados salidos de los sepulcros; eran tan violentos que nadie se atrevía a pasar por aquel camino. De pronto se pusieron a gritar: -¡Hijo de Dios!, ¿qué tienes con nosotros? ¿Has venido antes de tiempo a atormentarnos? A cierta distancia había una gran piara de cerdos pastando. Los demonios le suplicaron: -Si nos expulsas, envíanos a la piara de cerdos. Él les dijo: -Vayan. Ellos salieron y se metieron en los cerdos. La piara en masa se lanzó por un acantilado al lago y se ahogó en el agua. Los pastores huyeron, llegaron al pueblo y contaron lo que había sucedido con los endemoniados. Toda la población salió al encuentro de Jesús y al verlo le suplicaban que se fuera de su territorio.",
+        "categoria": "Petición",        
         "explicacion_teologica": "El milagro de Endemoniados gadarenos revela la compasión y el poder de Jesús."
     },
     {
@@ -222,8 +210,7 @@
             "Lucas"
         ],
         "tipo": "Sanidad",
-        "categoria": "Petición",
-        "texto_pasaje": "Entre tanto, una mujer que llevaba doce años padeciendo hemorragias, se le acercó por detrás y le tocó el borde de su manto. Pues se decía: Con sólo tocar su manto, quedaré sana. Jesús se volvió y al verla dijo: -¡Ten ánimo, hija! Tu fe te ha sanado. Al instante la mujer quedó sana. ",
+        "categoria": "Petición",        
         "explicacion_teologica": "El milagro de Mujer con flujo de sangre revela la compasión y el poder de Jesús."
     },
     {
@@ -241,8 +228,7 @@
             "Lucas"
         ],
         "tipo": "Resurrección",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Mientras les explicaba eso, se le acercó un jefe, se postró y le dijo: -Mi hija acaba de morir. Pero ven a imponerle tu mano y ella recobrará la vida. Jesús se levantó y le siguió con sus discípulos.  Jesús llegó a casa del jefe y al ver a los flautistas y el barullo de gente, dijo: -Retírense; la muchacha no está muerta, sino dormida. Se reían de él. Pero, cuando echaron a la gente, él entró, la tomó de la mano y la muchacha se levantó. El hecho se divulgó por toda la región.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Hija de Jairo revela la compasión y el poder de Jesús."
     },
     {
@@ -256,8 +242,7 @@
             "Mateo"
         ],
         "tipo": "Sanidad",
-        "categoria": "Petición",
-        "texto_pasaje": "Cuando se iba de allí, dos ciegos le seguían dando voces: -¡Hijo de David, ten piedad de nosotros! Al entrar en casa, se le acercaron los ciegos y Jesús les dijo: -¿Creen que puedo hacerlo? Contestaron: -Sí, Señor. Él les tocó los ojos diciendo: -Que suceda como ustedes han creído. Se les abrieron los ojos, y Jesús les advirtió: -¡Cuidado, que nadie lo sepa! Pero ellos se fueron y divulgaron su fama por toda la región.",
+        "categoria": "Petición",        
         "explicacion_teologica": "El milagro de Sanación de dos ciegos revela la compasión y el poder de Jesús."
     },
     {
@@ -271,8 +256,7 @@
             "Mateo"
         ],
         "tipo": "Exorcismo",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Mientras salían los ciegos, le trajeron un mudo endemoniado. Expulsó al demonio, y el mudo comenzó a hablar. La multitud comentaba asombrada: -Nunca se vio tal cosa en Israel. Pero los fariseos decían: -Expulsa demonios con el poder del jefe de los demonios.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Mudo poseído revela la compasión y el poder de Jesús."
     },
     {
@@ -286,8 +270,7 @@
             "Juan"
         ],
         "tipo": "Sanidad",
-        "categoria": "Compasión",
-        "texto_pasaje": "Pasado algún tiempo, celebraban los judíos una fiesta, y Jesús subió a Jerusalén. Hay en Jerusalén, junto a la puerta de los Rebaños, una piscina llamada en hebreo Betesda, que tiene cinco pórticos. Yacía en ellos una multitud de enfermos, ciegos, cojos y lisiados, que aguardaban a que se removiese el agua. De vez en cuando bajaba el ángel del Señor a la piscina y agitaba el agua, y el primero que se metía apenas agitada el agua, se sanaba de cualquier enfermedad que padeciese. Había allí un hombre que llevaba treinta y ocho años enfermo. Jesús lo vio acostado y, sabiendo que llevaba así mucho tiempo, le dice: -¿Quieres sanarte? Le contestó el enfermo: —Señor, no tengo a nadie que me meta en la piscina cuando se agita el agua. Cuando yo voy, otro se ha metido antes. Le dice Jesús: -Levántate, toma tu camilla y camina. Al instante aquel hombre quedó sano, tomó su camilla y empezó a caminar. Pero aquel día era sábado; por lo cual los judíos dijeron al que se había sanado: Hoy es sábado, no puedes transportar tu camilla. Les contestó: -El que me sanó me dijo que tomara mi camilla y caminara. Le preguntaron: -¿Quién te dijo que la tomaras y caminaras? Pero el hombre sanado lo ignoraba, porque Jesús se había retirado de aquel lugar tan concurrido. Más tarde lo encuentra Jesús en el templo y le dice: -Mira que has sanado. No vuelvas a pecar, no te vaya a suceder algo peor. El hombre fue y dijo a los judíos que era Jesús quien lo había sanado.",
+        "categoria": "Compasión",        
         "explicacion_teologica": "El milagro de Paralítico en Betesda revela la compasión y el poder de Jesús."
     },
     {
@@ -307,8 +290,7 @@
             "Juan"
         ],
         "tipo": "Naturaleza",
-        "categoria": "Compasión ",
-        "texto_pasaje": "Al enterarse, Jesús se fue de allí en barca, él solo, a un paraje despoblado. Pero lo supo la multitud y le siguió a pie desde los poblados. Jesús desembarcó y, al ver la gran multitud, se compadeció y sanó a los enfermos. Al atardecer los discípulos fueron a decirle: -El lugar es despoblado y ya es tarde; despide a la multitud para que vayan a los pueblos a comprar algo de comer. Jesús les respondió: -No hace falta que vayan; denle ustedes de comer. Respondieron: -Aquí no tenemos más que cinco panes y dos pescados. Él les dijo: -Tráiganlos. Después mandó a la multitud sentarse en la hierba, tomó los cinco panes y los dos pescados, alzó la vista al cielo, dio gracias, partió el pan y se lo dio a sus discípulos; ellos se lo dieron a la multitud.  Comieron todos, quedaron satisfechos, recogieron las sobras y llenaron doce canastos. Los que comieron eran cinco mil hombres, sin contar mujeres y niños.",
+        "categoria": "Compasión ",        
         "explicacion_teologica": "El milagro de Alimentación de los 5,000 revela la compasión y el poder de Jesús."
     },
     {
@@ -326,8 +308,7 @@
             "Juan"
         ],
         "tipo": "Naturaleza",
-        "categoria": "Prueba",
-        "texto_pasaje": "Enseguida mandó a los discípulos embarcarse y pasar antes que él a la otra orilla, mientras él despedía a la multitud. Después de despedirla, subió él solo a la montaña a orar. Al anochecer, todavía estaba allí, solo. La barca se encontraba a buena distancia de la costa, sacudida por las olas, porque tenía viento contrario. Ya muy entrada la noche Jesús se acercó a ellos caminando sobre el lago. Al verlo caminar sobre el lago, los discípulos comenzaron a temblar y dijeron: -¡Es un fantasma! Y gritaban de miedo. Pero Jesús les dijo: -¡Anímense! Soy yo, no teman. Pedro le contestó: -Señor, si eres tú, mándame ir por el agua hasta ti. -Ven, le dijo. Pedro saltó de la barca y comenzó a caminar por el agua acercándose a Jesús;pero, al sentir el [fuerte] viento, tuvo miedo, entonces empezó a hundirse y gritó: -¡Señor, sálvame! Al momento Jesús extendió la mano, lo sostuvo y le dijo: -¡Hombre de poca fe! ¿Por qué dudaste? Cuando subieron a la barca, el viento amainó.  Los de la barca se postraron ante él diciendo: -Ciertamente eres Hijo de Dios.",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de Camina sobre las aguas revela la compasión y el poder de Jesús."
     },
     {
@@ -343,8 +324,7 @@
             "Marcos"
         ],
         "tipo": "Exorcismo",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Desde allí se fue a la región de Tiro y Sidón. Una mujer cananea de la zona salió gritando: -¡Señor, Hijo de David, ten compasión de mí! Mi hija es atormentada por un demonio. Él no respondió una palabra. Se acercaron los discípulos y le suplicaron. -Señor, atiéndela, para que no siga gritando detrás de nosotros. Él contestó: -¡He sido enviado solamente a las ovejas perdidas de la Casa de Israel! Pero ella se acercó y se postró ante él diciendo: -¡Señor, ayúdame! Él respondió: -No está bien quitar el pan a los hijos para echárselo a los perritos. Ella replicó: -Es verdad, Señor; pero también los perritos comen las migajas que caen de la mesa de sus dueños. Entonces Jesús le contestó: -Mujer, ¡qué fe tan grande tienes! Que se cumplan tus deseos. Y en aquel momento, su hija quedó sana.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Hija de la mujer cananea revela la compasión y el poder de Jesús."
     },
     {
@@ -358,8 +338,7 @@
             "Marcos"
         ],
         "tipo": "Sanidad",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Después salió de la región de Tiro, pasó de nuevo por Sidón y se dirigió al lago de Galilea atravesando la región de la Decápolis. Le llevaron un hombre sordo y tartamudo y le suplicaban que impusiera las manos sobre él. Lo tomó, lo apartó de la gente y, a solas, le metió los dedos en los oídos; después le tocó la lengua con saliva; levantó la vista al cielo, suspiró y le dijo:Effatá, que significa ábrete.Al momento se le abrieron los oídos, se le soltó el impedimento de la lengua y hablaba normalmente. Les mandó que no lo dijeran a nadie; pero, cuanto más insistía, más lo pregonaban.  Llenos de asombro comentaban: Todo lo ha hecho bien, hace oír a los sordos y hablar a los mudos.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Sordomudo en la Decápolis revela la compasión y el poder de Jesús."
     },
     {
@@ -375,8 +354,7 @@
             "Marcos"
         ],
         "tipo": "Naturaleza",
-        "categoria": "Compasión",
-        "texto_pasaje": "Jesús llamó a los discípulos y les dijo: -Me compadezco de esta gente, porque llevan tres días junto a mí y no tienen qué comer. No quiero despedirlos en ayunas, no sea que desfallezcan en el camino. Le dijeron los discípulos: -¿Dónde podríamos, en un lugar tan despoblado como éste, conseguir suficiente pan para toda esta gente? Jesús les preguntó: -¿Cuántos panes tienen? Ellos le contestaron: -Siete y algunos pescaditos. Él ordenó a la gente que se sentara en el suelo. Tomó los siete panes y los pescados, dio gracias, partió el pan y se lo dio a los discípulos; éstos se los dieron a la multitud. Comieron todos hasta quedar satisfechos; y con los restos llenaron siete canastos. Los que habían comido eran cuatro mil hombres, sin contar mujeres y niños. Luego despidió a la multitud, subió a la barca y se dirigió al territorio de Magadán.",
+        "categoria": "Compasión",        
         "explicacion_teologica": "El milagro de Alimentación de los 4,000 revela la compasión y el poder de Jesús."
     },
     {
@@ -390,8 +368,7 @@
             "Marcos"
         ],
         "tipo": "Sanidad",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Cuando llegaron a Betsaida, le llevaron un ciego y le pidieron que lo tocase. Tomando al ciego de la mano, lo sacó a las afueras del pueblo, luego de ponerle saliva en los ojos, le impuso las manos y le preguntó: -¿Ves algo? Y mientras recobraba la vista dijo:\n-Veo hombres; los veo como árboles, pero caminando. De nuevo le impuso las manos a los ojos. El ciego afinó la mirada, fue sanado y distinguía todo con claridad. Jesús lo envió a casa y le dijo: -¡Ni se te ocurra entrar en el pueblo!",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Ciego de Betsaida revela la compasión y el poder de Jesús."
     },
     {
@@ -409,8 +386,7 @@
             "Lucas"
         ],
         "tipo": "Exorcismo",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Cuando volvieron adonde estaba la gente, un hombre se le acercó, se arrodilló ante él y le dijo: -Señor, ten compasión de mi hijo que es epiléptico y sufre horriblemente. Muchas veces se cae en el fuego o en el agua. Se lo he traído a tus discípulos y no han podido sanarlo. Respondió Jesús: -¡Qué generación incrédula y perversa! ¿Hasta cuándo tendré que estar con ustedes y soportarlos? Tráiganmelo aquí. Jesús reprendió al demonio, y éste abandonó al muchacho que desde aquel momento quedó sano. Entonces los discípulos se acercaron a Jesús y le preguntaron aparte: -¿Por qué nosotros no pudimos expulsarlo? Él les contestó: -Porque ustedes tienen poca fe. Les aseguro que, si tuvieran la fe del tamaño de una semilla de mostaza, dirían a aquel monte que se trasladara allá, y se trasladaría. Y nada sería imposible para ustedes.Pero esta clase sólo se expulsa con oración y ayuno.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Muchacho endemoniado revela la compasión y el poder de Jesús."
     },
     {
@@ -424,8 +400,7 @@
             "Mateo"
         ],
         "tipo": "Naturaleza",
-        "categoria": "Prueba",
-        "texto_pasaje": "Cuando llegaron a Cafarnaún, los recaudadores de impuestos se acercaron a Pedro y le dijeron: -¿El maestro de ustedes no paga los impuestos? Pedro contestó: -Sí. Cuando entró en casa, Jesús se le adelantó y le preguntó: -¿Qué te parece, Simón? Los reyes de la tierra, ¿de quiénes cobran impuestos?, ¿de los hijos o de los extraños? Contestó que de los extraños y Jesús le dijo: -Eso quiere decir que los hijos quedan libres de pagar. Pero para no dar motivo de escándalo, ve al lago, echa un anzuelo y al primer pez que pique sácalo, ábrele la boca y encontrarás una moneda. Tómala y paga por mí y por ti.",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de Moneda en la boca del pez revela la compasión y el poder de Jesús."
     },
     {
@@ -439,8 +414,7 @@
             "Juan"
         ],
         "tipo": "Sanidad",
-        "categoria": "Prueba",
-        "texto_pasaje": "Al pasar vio un hombre ciego de nacimiento. Los discípulos le preguntaron: -Maestro, ¿quién pecó para que naciera ciego? ¿Él o sus padres? Jesús contestó: -Ni él pecó ni sus padres; ha sucedido así para que se muestre en él la obra de Dios. Mientras es de día, tienen que trabajar en las obras del que me envió. Llegará la noche, cuando nadie puede trabajar. Mientras estoy en el mundo, soy la luz del mundo. Dicho esto, escupió en el suelo, hizo barro con la saliva, se lo puso en los ojos y le dijo: -Ve a lavarte a la piscina de Siloé -que significa enviado-. Fue, se lavó y al regresar ya veía.  Los vecinos y los que antes lo habían visto pidiendo limosna comentaban: -¿No es éste el que se sentaba a pedir limosna? Unos decían: -Es él. Otros decían: -No es, sino que se le parece. Él respondía: -Soy yo. Así que le preguntaron: -¿Cómo pues se te abrieron los ojos? Contestó: -Ese hombre que se llama Jesús hizo barro, lo puso sobre mis ojos y me dijo que fuera a lavarme a la fuente de Siloé. Fui, me lavé y recobré la vista. Le preguntaron: -¿Dónde está él? Responde: -No sé. Llevaron ante los fariseos al que había sido ciego era sábado el día que Jesús hizo barro y le abrió los ojos-.  Los fariseos le preguntaron otra vez cómo había recobrado la vista. Les respondió: -Me aplicó barro a los ojos, me lavé, y ahora veo. Algunos fariseos le dijeron: —Ese hombre no viene de parte de Dios, porque no observa el sábado. Otros decían: -¿Cómo puede un pecador hacer tales milagros? Y estaban divididos. Preguntaron de nuevo al ciego: -Y tú, ¿qué dices del que te abrió los ojos? Contestó: -Que es profeta. Los judíos no terminaban de creer que había sido ciego y había recobrado la vista; así que llamaron a los padres del que había recobrado la vista y les preguntaron: -¿Es éste su hijo, el que ustedes dicen que nació ciego? ¿Cómo es que ahora ve? Contestaron sus padres: -Sabemos que éste es nuestro hijo y que nació ciego; pero cómo es que ahora ve, no lo sabemos; quién le abrió  los ojos, no lo sabemos. Pregúntenle a él, que es mayor de edad y puede dar razón de sí –sus padres dijeron esto por temor a los judíos; porque los judíos ya habían decidido que quien lo confesara como Mesías sería expulsado de la sinagoga. Por eso dijeron los padres que tenía edad y que le preguntaran a él-. Llamaron por segunda vez al hombre que había sido ciego y le dijeron: -Da gloria a Dios. A nosotros nos consta que aquél es un pecador. Les contestó: -Si es pecador, no lo sé; de una cosa estoy seguro, que yo era ciego y ahora veo. Le preguntaron de nuevo: -¿Cómo te abrió los ojos? Les contestó: —Ya lo he dicho y no me creyeron; ¿para qué quieren oírlo de nuevo? ¿No será que también ustedes quieren hacerse discípulos suyos? Lo insultaron diciendo: -¡Tú serás discípulo de ese hombre nosotros somos discípulos de Moisés!  Sabemos que Dios le habló a Moisés; en cuanto a ése, no sabemos de dónde viene. Les respondió: -Eso es lo extraño, que ustedes no saben de dónde viene y a mí me abrió los ojos. Sabemos que Dios no escucha a los pecadores, sino que escucha al que es piadoso y cumple su voluntad.  Jamás se oyó contar que alguien haya abierto los ojos a un ciego de nacimiento. Si ese hombre no viniera de parte de Dios, no podría hacer nada. Le contestaron: -Tú naciste lleno de pecado, ¿y quieres darnos lecciones? Y lo expulsaron. Oyó Jesús que lo habían expulsado y, cuando lo encontró, le dijo: -¿Crees en el Hijo del Hombre? Contestó: -¿Quién es, Señor, para que crea en él? Jesús le dijo: -Lo has visto: es el que está hablando contigo. Respondió: -Creo, Señor. Y se postró ante él. Jesús dijo: -He venido a este mundo para un juicio, para que los ciegos vean y los que vean queden ciegos. Algunos fariseos que se encontraban con él preguntaron: -Y nosotros, ¿estamos ciegos? Les respondió Jesús: -Si estuvieran ciegos, no tendrían pecado; pero, como dicen que ven, su pecado permanece.",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de Ciego de nacimiento revela la compasión y el poder de Jesús."
     },
     {
@@ -454,8 +428,7 @@
             "Lucas"
         ],
         "tipo": "Sanidad",
-        "categoria": "Prueba",
-        "texto_pasaje": "Un sábado que entró a comer en casa de un jefe de fariseos, ellos lo vigilaban. Se le puso delante un hidrópico. Jesús tomó la palabra y preguntó a los doctores de la ley y fariseos: -¿Está permitido sanar en sábado o no? Ellos callaron. Jesús tomó al enfermo, lo sanó y lo despidió. Después les dijo: -Supongamos que a uno de ustedes se le cae un hijo o un buey a un pozo: ¿acaso no lo sacará enseguida, por más que sea sábado? Y ellos no supieron qué responderle.",
+        "categoria": "Prueba",  
         "explicacion_teologica": "El milagro de Hombre hidrópico revela la compasión y el poder de Jesús."
     },
     {
@@ -469,8 +442,7 @@
             "Juan"
         ],
         "tipo": "Resurrección",
-        "categoria": "Intercesión",
-        "texto_pasaje": "Había un enfermo llamado Lázaro, de Betania, el pueblo de María y su hermana Marta. María era la que había ungido al Señor con perfumes y le había secado los pies con sus cabellos. Su hermano Lázaro estaba enfermo. Las hermanas le enviaron un mensaje: -Señor, tu amigo está enfermo. Al oírlo, Jesús comentó: -Esta enfermedad no ha de terminar en la muerte; es para gloria de Dios, para que el Hijo de Dios sea glorificado por ella. Jesús era amigo de Marta, de su hermana y de Lázaro. Sin embargo cuando oyó que estaba enfermo, prolongó su estadía dos días en el lugar.  Después dice a los discípulos: -Vamos a volver a Judea. Le dicen los discípulos: -Maestro, hace poco intentaban apedrearte los judíos, ¿y quieres volver allá? Jesús les contestó: -¿No tiene el día doce horas? Quien camina de día no tropieza porque ve la luz de este mundo; quien camina de noche tropieza porque no tiene luz. Dicho esto, añadió: -Nuestro amigo Lázaro está dormido; voy a despertarlo. Contestaron los discípulos: -Señor, si está dormido, sanará. Pero Jesús se refería a su muerte, mientras que ellos creyeron que se refería al sueño. Entonces Jesús les dijo abiertamente: -Lázaro ha muerto.  Y me alegro por ustedes de no haber estado allí, para que crean. Vayamos a verlo. Tomás -que significa mellizo- dijo a los demás discípulos: -Vamos también nosotros a morir con él. Cuando Jesús llegó, encontró que llevaba cuatro días en el sepulcro.  Betania queda cerca de Jerusalén, a unos tres kilómetros.  Muchos judíos habían ido a visitar a Marta y María para darles el pésame por la muerte de su hermano. Cuando Marta oyó que Jesús llegaba, salió a su encuentro, mientras María se quedaba en casa. Marta dijo a Jesús: -Si hubieras estado aquí, Señor, mi hermano no habría muerto. Pero yo sé que lo que pidas, Dios te lo concederá. Le dice Jesús: -Tu hermano resucitará. Le dice Marta: -Sé que resucitará en la resurrección del último día. Jesús le contestó: -Yo soy la resurrección y la vida. Quien cree en mí, aunque muera, vivirá;  y quien vive y cree en mí no morirá para siempre. ¿Lo crees? Le contestó: -Sí, Señor, yo creo que tú eres el Mesías, el Hijo de Dios, el que había de venir al mundo. Dicho esto, se fue, llamó en privado a su hermana María y le dijo: -El Maestro está aquí y te llama. Al oírlo, se levantó rápidamente y se dirigió hacia él. Jesús no había llegado aún al pueblo, sino que estaba en el lugar donde lo encontró Marta. Los judíos que estaban con ella en la casa consolándola, al ver que María se levantaba de repente y salía, fueron detrás de ella, pensando que iba al sepulcro a llorar allí.  Cuando María llegó adonde estaba Jesús, al verlo, cayó a sus pies y le dijo: -Si hubieras estado aquí, Señor, mi hermano no habría muerto. Jesús al ver llorar a María y también a los judíos que la acompañaban, se estremeció por dentro y dijo muy conmovido: -¿Dónde lo han puesto? Le dicen: -Ven, Señor, y lo verás. Jesús se echó a llorar. Los judíos comentaban: -¡Cómo lo quería! Pero algunos decían: -El que abrió los ojos al ciego, ¿no pudo impedir que éste muriera? Jesús, estremeciéndose de nuevo, se dirigió al sepulcro. Era una caverna con una piedra adelante. Jesús dice: -Retiren la piedra. Le dice Marta, la hermana del difunto: -Señor, huele mal, ya lleva cuatro días muerto. Le contesta Jesús: -¿No te dije que si crees, verás la gloria de Dios? Retiraron la piedra. Jesús alzó la vista al cielo y dijo: -Te doy gracias, Padre, porque me has escuchado.  Yo sé que siempre me escuchas, pero lo he dicho por la gente que me rodea, para que crean que tú me enviaste. Dicho esto, gritó con fuerte voz: -Lázaro, sal afuera. Salió el muerto con los pies y las manos sujetos con vendas y el rostro envuelto en un sudario. Jesús les dijo: -Desátenlo para que pueda caminar. Muchos judíos que habían ido a visitar a María y vieron lo que hizo creyeron en él. Pero algunos fueron y contaron a los fariseos lo que había hecho Jesús.",
+        "categoria": "Intercesión",        
         "explicacion_teologica": "El milagro de Resurrección de Lázaro revela la compasión y el poder de Jesús."
     },
     {
@@ -484,8 +456,7 @@
             "Lucas"
         ],
         "tipo": "Sanidad",
-        "categoria": "Prueba",
-        "texto_pasaje": "Yendo él de camino hacia Jerusalén, atravesaba Galilea y Samaría. Al entrar en un pueblo, le salieron al encuentro diez leprosos, que se pararon a cierta distancia y alzando la voz, dijeron: -Jesús, Maestro, ten piedad de nosotros. Al verlos, les dijo: -Vayan a presentarse a los sacerdotes. Mientras iban, quedaron sanos. Uno de ellos, viéndose sano, volvió glorificando a Dios en voz alta, y cayó a los pies de Jesús, rostro en tierra, dándole gracias. Era samaritano. Jesús tomó la palabra y dijo: -¿No recobraron la salud los diez? ¿Y los otros nueve dónde están? ¿Ninguno volvió a dar gloria a Dios, sino este extranjero? Y le dijo: -Ponte de pie y vete, tu fe te ha salvado.",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de Diez leprosos revela la compasión y el poder de Jesús."
     },
     {
@@ -503,8 +474,7 @@
             "Lucas"
         ],
         "tipo": "Sanidad",
-        "categoria": "Prueba",
-        "texto_pasaje": "Cuando se fueron de Jericó, un gran gentío le seguía. Dos ciegos, que estaban sentados al costado del camino, al oír que Jesús pasaba, se pusieron a gritar: -¡[Señor,] Hijo de David, ten compasión de nosotros! La gente los reprendía para que se callasen. Pero ellos gritaban más fuerte: -¡Señor, Hijo de David, ten compasión de nosotros! Jesús se detuvo y les habló: -¿Qué quieren que haga por ustedes? Respondieron: -Señor, que se nos abran los ojos. Compadecido, Jesús les tocó los ojos y al punto recobraron la vista y le siguieron.",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de Ciego Bartimeo revela la compasión y el poder de Jesús."
     },
     {
@@ -520,8 +490,7 @@
             "Marcos"
         ],
         "tipo": "Naturaleza",
-        "categoria": "Prueba",
-        "texto_pasaje": "De mañana, cuando caminaba a la ciudad, sintió hambre, al ver una higuera junto al camino, se acercó, pero no encontró más que hojas. Entonces le dijo: -Jamás vuelvas a dar fruto. En ese momento se secó la higuera. Al verlo, los discípulos decían asombrados: -¿Cómo es que la higuera se ha secado repentinamente? Jesús les respondió: -Les aseguro que, si tuvieran una fe firme, no sólo harían lo de la higuera, sino que podrían decir a ese monte que se quite de ahí y se tire al mar, y lo haría. Y todo lo que pidan con fe lo recibirán.",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de Higuera estéril revela la compasión y el poder de Jesús."
     },
     {
@@ -536,7 +505,6 @@
         ],
         "tipo": "Sanidad",
         "categoria": "Compasión",
-        "texto_pasaje": "Lectura bíblica en preparación.",
         "explicacion_teologica": "El milagro de Oreja de Malco revela la compasión y el poder de Jesús."
     },
     {
@@ -556,8 +524,7 @@
             "Juan"
         ],
         "tipo": "Resurrección",
-        "categoria": "Prueba",
-        "texto_pasaje": "Pasado el sábado, al despuntar el alba del primer día de la semana, fue María Magdalena con la otra María a examinar el sepulcro. De repente se produjo un fuerte temblor: Un ángel del Señor bajó del cielo, llegó e hizo rodar la piedra y se sentó encima. Su aspecto era como el de un relámpago y su vestido blanco como la nieve. Los de la guardia se pusieron a temblar de miedo y quedaron como muertos. El ángel dijo a las mujeres: -Ustedes no teman. Sé que buscan a Jesús, el crucificado. No está aquí; ha resucitado como había dicho. Acérquense a ver el lugar donde yacía. Después vayan corriendo a anunciar a los discípulos que ha resucitado y que irá por delante a Galilea; allí lo verán. Éste es mi mensaje. Se alejaron rápidamente del sepulcro, llenas de miedo y gozo, y corrieron a dar la noticia a los discípulos.",
+        "categoria": "Prueba",        
         "explicacion_teologica": "El milagro de La Resurrección revela la compasión y el poder de Jesús."
     },
     {
@@ -572,7 +539,6 @@
         ],
         "tipo": "Naturaleza",
         "categoria": "Prueba",
-        "texto_pasaje": "Después Jesús se apareció de nuevo a los discípulos junto al lago de Tiberíades. Se apareció así: Estaban juntos Simón Pedro, Tomás, llamado el Mellizo, Natanael de Caná de Galilea, los Zebedeos y otros dos discípulos. Les dice Simón Pedro: -Voy a pescar. Le responden: -Nosotros también vamos. Salieron y subieron a la barca; pero aquella noche no pescaron nada. Al amanecer Jesús estaba en la playa; pero los discípulos no reconocieron que era Jesús. Les dice Jesús: -Muchachos, ¿tienen algo de comer? Ellos contestaron: -No. Les dijo: -Tiren la red a la derecha de la barca y encontrarán. Tiraron la red y era tanta la abundancia de peces que no podían arrastrarla. El discípulo amado de Jesús dice a Pedro: -Es el Señor. Al oír Pedro que era el Señor, se ciñó la túnica, que era lo único que llevaba puesto, y se tiró al agua. Los demás discípulos se acercaron en el bote, arrastrando la red con los peces, porque no estaban lejos de la orilla, apenas unos cien metros. Cuando saltaron a tierra, ven unas brasas preparadas y encima pescado y pan. Les dice Jesús: -Traigan algo de lo que acaban de pescar. Pedro subió a la barca y arrastró hasta la playa la red repleta de peces grandes: ciento cincuenta y tres. Y, aunque eran tantos, la red no se rompió. Les dice Jesús: -Vengan a comer. Ninguno de los discípulos se atrevía a preguntarle quién era, porque sabían que era el Señor. Jesús se acercó, tomó pan y se lo repartió e hizo lo mismo con el pescado. Ésta fue la tercera aparición de Jesús, ya resucitado, a sus discípulos.",
         "explicacion_teologica": "El milagro de Pesca tras la resurrección revela la compasión y el poder de Jesús."
     },
     {
@@ -588,8 +554,7 @@
             "Lucas"
         ],
         "tipo": "Naturaleza",
-        "categoria": "Prueba",
-        "texto_pasaje": "El Señor Jesús, después de hablar con ellos, fue llevado al cielo y se sentó a la derecha de Dios.",
+        "categoria": "Prueba",      
         "explicacion_teologica": "El milagro de La Ascensión revela la compasión y el poder de Jesús."
     }
 ]
